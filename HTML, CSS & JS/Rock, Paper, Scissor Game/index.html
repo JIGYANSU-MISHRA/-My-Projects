@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- It is a heading part -->
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- It's rock paper scissors choice part -->
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="https://wrpsa.com/wp-content/uploads/2021/08/rock.png" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="https://wrpsa.com/wp-content/uploads/2021/08/paper.png" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="https://wrpsa.com/wp-content/uploads/2021/08/scissors.png" />
+      </div>
+    </div>
+
+    <!-- It's Score board part where user and computer score will be displayed -->
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">VS</div>
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>Comp</p>
+      </div>
+    </div>
+
+    <!-- It's a message part -->
+    <div class="msg-container">
+      <p id="msg">It's Your Turn</p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
